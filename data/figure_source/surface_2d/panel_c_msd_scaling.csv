@@ -1,0 +1,3 @@
+branch,sim_case,terminal_mode,length_nm_per_sim_unit,time_s_per_sim_unit,dx_decades,dy_decades
+polarized,simulation:data/raw/trajectory_cloud/polarized:freeze,freeze,10.0,0.09,0.0,0.0
+mixed,simulation:data/raw/trajectory_cloud/mixed:freeze,freeze,10.0,0.09,0.0,0.0

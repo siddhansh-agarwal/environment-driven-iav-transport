@@ -1,0 +1,7 @@
+panel_key,architecture,K_D,K_C,thermal_strength,trajectory_id,simulation_time,included,ensemble_size,representative_score,motion_model
+no_cleave_kd10,mixed,10.0,0.0,0.01,39,200000.0,True,64,0.01614364258026687,thermal_brownian_v1
+polarized_kd10,polarized,10.0,10.0,0.01,49,200000.0,True,64,0.19039895407382146,thermal_brownian_v1
+mixed_kd10,mixed,10.0,10.0,0.01,52,200000.0,True,64,0.2612467278586192,thermal_brownian_v1
+no_cleave_kd100,mixed,100.0,0.0,0.01,5,200000.0,True,64,0.0769666434044716,thermal_brownian_v1
+polarized_kd100,polarized,100.0,10.0,0.01,25,200000.0,True,64,0.13028102272826164,thermal_brownian_v1
+mixed_kd100,mixed,100.0,10.0,0.01,33,200000.0,True,64,0.1247238107746289,thermal_brownian_v1

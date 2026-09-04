@@ -1,0 +1,18 @@
+{
+  "figure": "fig_gradient_guidance",
+  "physical_condition": "constrained thermal motion",
+  "panels": {
+    "panel_b": "panel_b_trajectory_examples.csv",
+    "panel_c": "panel_c_dense_side_displacement.csv",
+    "panel_d": "panel_d_rear_asymmetry.csv",
+    "panel_e": "panel_e_bias_vs_density_contrast.csv",
+    "panel_f": "panel_f_arrival_vs_density_contrast.csv",
+    "panel_g": "panel_g_guidance_vs_attachment_friction.csv",
+    "panel_h": "panel_h_arrival_vs_attachment_friction.csv"
+  },
+  "simulation_intervals": "trajectory bootstrap 2.5th to 97.5th percentiles",
+  "path_chemotactic_index": "dense-side displacement through time 100000 divided by the three-dimensional path length",
+  "arrival_score": "500000/t_hit for a first dense-boundary hit by 500000; all other finite-gradient trajectories contribute zero",
+  "uniform_control": "zero-gradient control evaluated through time 200000",
+  "theory": "local mean field with K_D,eff=K_D/[f_a rho] and K_C,loc=K_C rho; first-arrival statistics follow from the backward operator v d/dz + D d2/dz2, and the path chemotactic index includes the active and diffusive contributions to path length"
+}

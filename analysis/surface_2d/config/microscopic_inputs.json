@@ -1,0 +1,19 @@
+{
+  "rod_length": 20.0,
+  "interaction_range": 0.5,
+  "receptor_spacing": 0.5,
+  "spring_constant": 1.0,
+  "thermal_energy": 0.125,
+  "mean_field_cleavage_exposure_factor": 0.002,
+  "gamma_parallel": 0.1,
+  "gamma_perpendicular": 0.2,
+  "gamma_rotational": 5.0,
+  "observation_time": 1000000.0,
+  "ligand_slot_spacing": 1.0,
+  "assumptions": {
+    "binding_reach": "Minkowski radius interaction_range + receptor_spacing/2",
+    "bond_extension_variance_per_axis": "interaction_range^2/2 from the Gaussian contact kernel",
+    "bond_relaxation_rate": "(K_D + nu_b)/2 from aggregate binding and direct-contact release",
+    "polarized_recent_return": "zero at leading order because binder-leading motion advances onto fresh receptors"
+  }
+}

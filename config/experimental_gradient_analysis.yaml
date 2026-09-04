@@ -1,0 +1,25 @@
+physics:
+  gradient_smoothing_um: 0.25
+  receptor_cue_radius_um: 0.5
+  receptor_cue_angles: 96
+  ci_first_passage_displacement_um: 0.5
+  arrival_distance_um: 0.75
+  retained_receptor_contrast_fraction: 0.10
+
+statistics:
+  averaging_order:
+    - trajectory
+    - recording
+    - biological_replicate
+  biological_replicates: 3
+  direction_randomizations: 20000
+  treatment_label_permutations: 20000
+  seed: 417
+
+motility_control:
+  minimum_track_span_um: 0.5
+  minimum_contiguous_points: 30
+  msd_fit_lags: 10
+  minimum_fit_r_squared: 0.3
+  mixture_components: 2
+  mixture_fit_condition: noSBA_noNAI

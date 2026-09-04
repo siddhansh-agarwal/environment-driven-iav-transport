@@ -1,0 +1,14 @@
+- L: 20.0
+  n_binders: 16
+  ALPHA: 0.5
+  RECEPTOR_SPACING: 0.5
+  GAMMA_T_PARALLEL: 0.1
+  GAMMA_T_PERPENDICULAR: 0.2
+  GAMMA_R: 5.0
+  DIMENSION: 2d
+  GRADIENT_TYPE: uniform
+  GRADIENT_SCALE: 1.0
+  ligand_pattern: mixed
+  K_C: 1.0
+  K_D: 10.0
+  T_FINAL: 50.0
